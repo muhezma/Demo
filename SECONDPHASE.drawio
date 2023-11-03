@@ -1,23 +1,23 @@
-<mxfile host="app.diagrams.net" modified="2023-10-26T19:41:26.429Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15" etag="8IIqYa6Y2oCefy8XDj89" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-03T21:59:03.809Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15" etag="gtFDLQ_9LvrieuRlCzHj" version="22.0.8" type="github">
   <diagram name="Page-1" id="ZRt7XOUPXMr7D1SCCJ1l">
-    <mxGraphModel dx="3319" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="2400" math="0" shadow="0">
+    <mxGraphModel dx="3990" dy="1032" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="2400" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="W1SMByUnJdoFZy77ZxDQ-3" value="IDLE" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
           <mxGeometry x="80" y="240" width="151" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="W1SMByUnJdoFZy77ZxDQ-4" value="PIN VERIFICATION STATE&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+        <mxCell id="W1SMByUnJdoFZy77ZxDQ-4" value="PIN READING STATE&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
           <mxGeometry x="630" y="220" width="151" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="W1SMByUnJdoFZy77ZxDQ-5" value="READING CARD" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+        <mxCell id="W1SMByUnJdoFZy77ZxDQ-5" value="WAITING PIN STATE" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
           <mxGeometry x="350" y="160" width="151" height="60" as="geometry" />
         </mxCell>
         <mxCell id="W1SMByUnJdoFZy77ZxDQ-6" value="SELECTING TRANSACTION" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
           <mxGeometry x="350" y="320" width="151" height="60" as="geometry" />
         </mxCell>
         <mxCell id="W1SMByUnJdoFZy77ZxDQ-7" value="DEPOSIT" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="350" y="540" width="151" height="60" as="geometry" />
+          <mxGeometry x="350" y="490" width="151" height="80" as="geometry" />
         </mxCell>
         <mxCell id="W1SMByUnJdoFZy77ZxDQ-8" value="COMPLETE TRANSACTION&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
           <mxGeometry x="350" y="750" width="151" height="60" as="geometry" />
@@ -52,10 +52,10 @@
             <mxPoint x="270" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="W1SMByUnJdoFZy77ZxDQ-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.433;exitY=1.05;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.442;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" parent="1" target="W1SMByUnJdoFZy77ZxDQ-7" edge="1">
+        <mxCell id="W1SMByUnJdoFZy77ZxDQ-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.433;exitY=1.05;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="401.96000000000004" y="380" as="sourcePoint" />
-            <mxPoint x="392" y="535.02" as="targetPoint" />
+            <mxPoint x="410" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="W1SMByUnJdoFZy77ZxDQ-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" parent="1" source="W1SMByUnJdoFZy77ZxDQ-6" edge="1">
@@ -74,25 +74,10 @@
           <mxGeometry x="520" y="160" width="91" height="50" as="geometry" />
         </mxCell>
         <mxCell id="W1SMByUnJdoFZy77ZxDQ-24" value="Verify Pin&lt;br&gt;Right Credentials / Home Screen" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="500" y="320" width="200" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="W1SMByUnJdoFZy77ZxDQ-25" value="RE-VERIFICATION &lt;br&gt;OF PIN" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="720" y="340" width="151" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="W1SMByUnJdoFZy77ZxDQ-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.983;exitY=0.9;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" parent="1" source="W1SMByUnJdoFZy77ZxDQ-4" target="W1SMByUnJdoFZy77ZxDQ-25" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="460" y="470" as="sourcePoint" />
-            <mxPoint x="510" y="420" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="490" y="290" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="W1SMByUnJdoFZy77ZxDQ-27" value="Wrong Pin prompt to Pin Screen&lt;br&gt;&amp;nbsp;with error message wrong Pin" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
           <mxGeometry x="750" y="280" width="200" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="W1SMByUnJdoFZy77ZxDQ-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" parent="1" source="W1SMByUnJdoFZy77ZxDQ-25" target="W1SMByUnJdoFZy77ZxDQ-6" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="716" y="372.99" as="sourcePoint" />
-            <mxPoint x="504" y="358" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="W1SMByUnJdoFZy77ZxDQ-32" value="" style="endArrow=classic;html=1;curved=1;strokeColor=none;labelBackgroundColor=none;fontColor=default;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -106,22 +91,19 @@
         </mxCell>
         <mxCell id="W1SMByUnJdoFZy77ZxDQ-33" value="" style="endArrow=classic;html=1;curved=1;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="795" y="400" as="sourcePoint" />
-            <mxPoint x="845" y="380" as="targetPoint" />
+            <mxPoint x="740" y="280" as="sourcePoint" />
+            <mxPoint x="790" y="260" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="905" y="440" />
-              <mxPoint x="855" y="390" />
+              <mxPoint x="800" y="300" />
+              <mxPoint x="815" y="310" />
+              <mxPoint x="835" y="320" />
+              <mxPoint x="850" y="320" />
+              <mxPoint x="800" y="270" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="W1SMByUnJdoFZy77ZxDQ-34" value="Wrong Pin prompt to Pin Screen&lt;br&gt;&amp;nbsp;with error message wrong Pin" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="810" y="430" width="200" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="W1SMByUnJdoFZy77ZxDQ-35" value="INSUFFIECIENT FUNDS" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
           <mxGeometry x="140" y="630" width="151" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="W1SMByUnJdoFZy77ZxDQ-36" value="INSUFFIECIENT FUNDS" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="570" y="630" width="151" height="60" as="geometry" />
         </mxCell>
         <mxCell id="W1SMByUnJdoFZy77ZxDQ-40" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.364;entryY=1.022;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" parent="1" source="W1SMByUnJdoFZy77ZxDQ-10" target="W1SMByUnJdoFZy77ZxDQ-8" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -142,7 +124,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="W1SMByUnJdoFZy77ZxDQ-43" value="Insufficient funds error &lt;br&gt;message to put sufficient funds" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="550" y="540" width="190" height="40" as="geometry" />
+          <mxGeometry x="440" y="570" width="190" height="40" as="geometry" />
         </mxCell>
         <mxCell id="W1SMByUnJdoFZy77ZxDQ-44" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" parent="1" target="W1SMByUnJdoFZy77ZxDQ-10" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -156,18 +138,18 @@
         <mxCell id="W1SMByUnJdoFZy77ZxDQ-45" value="Sufficient funds" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
           <mxGeometry x="30" y="618" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="W1SMByUnJdoFZy77ZxDQ-47" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" parent="1" edge="1">
+        <mxCell id="W1SMByUnJdoFZy77ZxDQ-47" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="625" y="510" as="sourcePoint" />
-            <mxPoint x="625" y="630" as="targetPoint" />
+            <mxPoint x="290" y="670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="W1SMByUnJdoFZy77ZxDQ-48" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" parent="1" target="W1SMByUnJdoFZy77ZxDQ-9" edge="1">
+        <mxCell id="W1SMByUnJdoFZy77ZxDQ-48" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="730" y="670" as="sourcePoint" />
-            <mxPoint x="700" y="480" as="targetPoint" />
+            <mxPoint x="286" y="665" as="sourcePoint" />
+            <mxPoint x="706" y="470" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="755" y="440" />
+              <mxPoint x="750" y="430" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -192,11 +174,35 @@
         <mxCell id="r969WHKHFXxG87WMxApV-2" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
           <mxGeometry x="-250" y="110" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="UpcmM_8n9G8LxSOg4O57-2" value="insert card" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#393C56;" vertex="1" parent="1">
+        <mxCell id="UpcmM_8n9G8LxSOg4O57-2" value="insert card" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#393C56;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="230" y="178" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="UpcmM_8n9G8LxSOg4O57-6" value="EJECT CARD" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+        <mxCell id="UpcmM_8n9G8LxSOg4O57-6" value="EJECT CARD" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="381" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CQFHKARzYMd4rrug3kNz-2" value="user chooses transfer&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="180" y="378" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CQFHKARzYMd4rrug3kNz-3" value="user chooses Deposit&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="340" y="420" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CQFHKARzYMd4rrug3kNz-4" value="user chooses withdraw" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="535" y="400" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CQFHKARzYMd4rrug3kNz-5" value="Sufficient funds" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="830" y="628" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CQFHKARzYMd4rrug3kNz-7" value="Insufficient funds error &lt;br&gt;message to put sufficient funds" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="120" y="540" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CQFHKARzYMd4rrug3kNz-9" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fillColor=#F2CC8F;strokeColor=#E07A5F;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="381" y="909.3366666666667" as="sourcePoint" />
+            <mxPoint x="80" y="270.67" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-24" y="305.67" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
